@@ -15,7 +15,6 @@ any changes made here will be overwritten without warning */
     content: '';
     inset: 0;
     border-radius: inherit;
-    corner-shape: bevel;
 }
     
 .conecorp-hq-network::before {
