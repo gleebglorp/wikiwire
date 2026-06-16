@@ -6,28 +6,19 @@ any changes made here will be overwritten without warning */
     flex-wrap: wrap; 
     gap: var(--space-xxl); 
     align-items: center;
-    position: relative;
 }
 
-.conecorp-hq-network::before,
-.conecorp-hq-network::after {
+.conecorp-hq-network::before {
     position: absolute;
     content: '';
     inset: 0;
     border-radius: inherit;
-}
-    
-.conecorp-hq-network::before {
-    z-index: -1;
+    z-index: 1;
     background: url(https://static.wikitide.net/ablocksjourneywiki/9/96/CONECORP_HQ_network_background_texture.png);
     background-size: auto 200px;
     opacity: 0.05;
     filter: saturate(0.5);
-}
-
-.conecorp-hq-network::after {
-    z-index: -2;
-    background: var(--color-surface-2);
+    pointer-events: none;
 }
 
 @media screen and (max-width: 800px) {
