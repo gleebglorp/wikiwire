@@ -1,0 +1,44 @@
+/* this code is shared with multiple wikis, please edit the css in https://github.com/gleebglorp/wikiwire instead of here.
+any changes made here will be overwritten without warning */
+
+.conecorp-hq-network {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: var(--space-xxl); 
+    align-items: center;
+    position: relative;
+}
+
+.conecorp-hq-network::before,
+.conecorp-hq-network::after {
+    position: absolute;
+    content: '';
+    inset: 0;
+    border-radius: inherit;
+    corner-shape: bevel;
+}
+    
+.conecorp-hq-network::before {
+    z-index: -1;
+    background: url(https://static.wikitide.net/ablocksjourneywiki/9/96/CONECORP_HQ_network_background_texture.png);
+    background-size: auto 200px;
+    opacity: 0.05;
+    filter: saturate(0.5);
+}
+
+.conecorp-hq-network::after {
+    z-index: -2;
+    background: var(--color-surface-2);
+}
+
+@media screen and (max-width: 800px) {
+    .conecorp-hq-network {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1119px) {
+    .conecorp-hq-network::before {
+        mask-image: linear-gradient(to right, black, transparent 50%);
+    }
+}

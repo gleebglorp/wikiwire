@@ -1,0 +1,20 @@
+<!-- this code is shared with multiple wikis, please edit the template in https://github.com/gleebglorp/wikiwire instead of here.
+any changes made here will be overwritten without warning --><div class="conecorp-hq-network">
+<div style="font-size: var(--font-size-xx-large)">'''CONECORP HQ network'''</div>
+<div style="flex: 1">
+{{Navpills
+| page1  = https://sb64.conecorp.cc
+| text1 = SUPER BLOX 64!
+| image1 = Super Blox 64 image for main page.png
+
+| page2  = https://sr.conecorp.cc
+| text2 = Superstar Racers
+| image2 = Superstar Racers image for main page.png
+
+| page3 = https://abj.conecorp.cc
+| text3 = A Block's Journey
+| image3 = A Blocks Journey image for main page.png
+}}
+</div>
+</div>
+<templatestyles src="CONECORP wiki discover/styles.css"/>
