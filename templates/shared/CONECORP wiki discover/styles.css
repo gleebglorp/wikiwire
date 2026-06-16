@@ -6,6 +6,7 @@ any changes made here will be overwritten without warning */
     flex-wrap: wrap; 
     gap: var(--space-xxl); 
     align-items: center;
+    border-radius: inherit;
 }
 
 .conecorp-hq-network::before {
