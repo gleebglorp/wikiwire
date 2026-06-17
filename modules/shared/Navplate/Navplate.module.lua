@@ -1,4 +1,4 @@
--- this code is shared with multiple wikis, please edit the module in https://github.com/gleebglorp/wikiwire instead of here.
+-- this code is shared with multiple wikis, please edit the module in https://github.com/conecorpwiki/wikiwire instead of here.
 -- any changes made here will be overwritten without warning
 
 --------------------------------------------------------------------------------

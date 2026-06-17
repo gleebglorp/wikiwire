@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       
-      - uses: gleebglorp/wikiwire@main
+      - uses: conecorpwiki/wikiwire@main
         with:
           sync_all: "true"
           username: 'SplatchedSync@WikiWireBot' 
